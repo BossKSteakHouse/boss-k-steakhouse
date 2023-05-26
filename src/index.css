@@ -1,7 +1,42 @@
 body {
   background-color: #FEDF5A;
 }
-/* add google font outfit to the navbar items */
-/* add bold */
-/* make navbar background dark */
-/* add logo */
+
+/* Navbar styling */
+nav {
+  background-color: black !important;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 300px;
+}
+
+.navItems {
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold; 
+}
+
+.space {
+  margin-right: 45px;
+}
+
+.text-white {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #burger-menu {
+    background-color: white !important;
+  }
+}
+/* End */
+
+/* Our Menu Styling */
+.ourMenu {
+  height: 60px;
+  background-color: black !important;
+}
+
+/* End */
