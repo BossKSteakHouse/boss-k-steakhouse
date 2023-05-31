@@ -148,4 +148,47 @@ nav {
   height: 60px;
   width: 320px;
 }
+
+.contactUsContainer {
+  background: linear-gradient(.50turn, #6F661B, #e5d06f, #f5db6a);
+  border-radius: 20px;
+  height: 450px;
+}
+
+iframe {
+  filter: grayscale(100%) brightness(120%);
+}
+/* End */
+
+/* Footer styling */
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+}
+/* End */
+
+/* Floating button styles */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  /* Hide the button by default */
+  /* Add styling as desired */
+}
+
+.back-to-top.show {
+  display: block;
+  /* Show the button when the "show" class is applied */
+}
 /* End */
