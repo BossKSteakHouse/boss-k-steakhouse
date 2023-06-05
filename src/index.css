@@ -188,7 +188,16 @@ footer {
 }
 
 .back-to-top.show {
+  background-color: black;
   display: block;
+  width: 14%;
+  padding: 0.5rem -1rem;
+  font-size: 0.65rem;
+  /* Show the button when the "show" class is applied */
+}
+
+.back-to-top.show span {
+  color: white;
   /* Show the button when the "show" class is applied */
 }
 /* End */

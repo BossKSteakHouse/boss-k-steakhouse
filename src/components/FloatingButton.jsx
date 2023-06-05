@@ -22,9 +22,9 @@ export default function FloatingButton() {
         {showBackToTop && (
             <button
                 onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                class={`back-to-top ${showBackToTop ? 'show' : ''}`}
-                >
-                Back to Top
+                class={`back-to-top ${showBackToTop ? 'show' : ''} btn btn-secondary btn-sm`}
+            >
+                <span>Back To Top</span>
             </button>
         )}
         </div>
