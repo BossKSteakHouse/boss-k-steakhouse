@@ -1,0 +1,210 @@
+body {
+  background-color: #FEDF5A;
+}
+
+/* Navbar styling */
+nav {
+  background-color: black !important;
+}
+
+.navbarLogo {
+  height: 100px;
+  width: 100px;
+  border-radius: 300px;
+}
+
+.navItems {
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold; 
+}
+
+.space {
+  margin-right: 45px;
+}
+
+.text-white {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #burger-menu {
+    background-color: white !important;
+  }
+}
+/* End */
+
+/* First picture and paragraph styling */
+/* Media query on desktop view */
+@media (min-width: 992px) {
+  .firstPicture {
+    max-height: 500px !important;
+    width: 100% !important;
+  }
+    .firstParagraphExtraSpace {
+      margin-top: 290px !important;
+    }
+    .firstParagraph span, .contactUsParagraph {
+      font-size: 35px;
+    }
+}
+
+.firstParagraph, .contactUsParagraph {
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+}
+/* End */
+
+/* Our Menu Styling */
+.ourMenu {
+  height: 60px;
+  background-color: black !important;
+}
+/* End */
+
+/* Testimonials styles */
+.testimonialsHeader, .testimonialsSubtext, .contactUsHeader {
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+}
+
+.testimonialsHeader, .contactUsHeader {
+  font-weight: bold !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 2px black;
+  color: black;
+  font-size: 25px;
+}
+
+.testimonialsSubtext {
+  font-size: 35px;
+  font-weight: bold !important;
+  margin-bottom: 50px;
+}
+
+.testimonialCards {
+  background-color: black !important;
+}
+
+.card-body h3 {
+  color: white !important;
+  text-align: center !important;
+  padding-top: 60px;
+}
+
+.card-text {
+  text-align: center !important;
+  color: white !important;
+}
+
+/* Testimony image */
+.card img {
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 1000px !important;
+  height: 100px;
+  width: 100px;
+  filter: grayscale(100%) brightness(120%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  position: relative;
+  height: 100%;
+}
+
+.row, .gutters {
+  display: flex;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-img-top {
+  opacity: 0.7;
+}
+/*  End */
+
+/* Contact Us Styling */
+.contactUsText {
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.btn {
+  margin-top: 50px;
+  background-color: black;
+  border-radius: 100px;
+  height: 60px;
+  width: 320px;
+}
+
+.contactUsContainer {
+  background: linear-gradient(.50turn, #6F661B, #e5d06f, #f5db6a);
+  border-radius: 20px;
+  height: 450px;
+}
+
+iframe {
+  filter: grayscale(100%) brightness(120%);
+}
+
+@media (max-width: 320px) {
+  .contactUsButton {
+    width: 90%;
+    justify-content: center;
+  }
+}
+/* End */
+
+/* Footer styling */
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+}
+/* End */
+
+/* Floating button styles */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  /* Hide the button by default */
+  /* Add styling as desired */
+}
+
+.back-to-top.show {
+  background-color: black;
+  display: block;
+  width: 14%;
+  padding: 0.5rem -1rem;
+  font-size: 0.65rem;
+  /* Show the button when the "show" class is applied */
+}
+
+.back-to-top.show span {
+  color: white;
+  /* Show the button when the "show" class is applied */
+}
+/* End */
