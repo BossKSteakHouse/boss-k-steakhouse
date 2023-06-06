@@ -66,8 +66,7 @@ export default function Main() {
             </span>
             </div>
         </div>
-
-    <div class="container">
+<div class="container">
     <div class="row gutters">
         <div class="col-md-4 mb-4">
             <div class="card testimonialCard">
@@ -98,53 +97,49 @@ export default function Main() {
         </div>
     </div>
 </div>
+{/* End */}
 
-
-        {/* End */}
-
-        {/* Contact us start */}
-        <div class="container mt-5">
-            <div class="row contactUsHeader">
+{/* Contact us start */}
+<div class="container mt-5">
+    <div class="row contactUsHeader">
+    <span>
+        CONTACT US
+    </span>
+    </div>
+</div>
+<div class="container contactUsContainer" id="contactUsSection">
+    <div class="row">
+        <div class="col-md-6 mt-5 contactUsParagraph">
             <span>
-                CONTACT US
+                Located at: Lot 2 Blk 11 Dahlia ave. Fairview, QC (Inside UNIOIL Gas Station)
             </span>
-            </div>
+            <br />
+            <span>
+                3:00-11:00pm
+            </span>
+            <span>
+                Waze/Google Maps: BOSS K Steakhouse - Dahlia
+            </span>
+            <br />
+            <a href="https://www.facebook.com/bossksteakhousedahlia" target="_blank">
+                <button type="button" class="btn btn-secondary btn-sm contactUsButton">
+                    Boss K Steakhouse FB Page
+                </button>
+            </a>
         </div>
-
-        <div class="container contactUsContainer" id="contactUsSection">
-            <div class="row">
-                <div class="col-md-6 mt-5 contactUsParagraph">
-                    <span>
-                        Located at: Lot 2 Blk 11 Dahlia ave. Fairview, QC (Inside UNIOIL Gas Station)
-                    </span>
-                    <br />
-                    <span>
-                        3:00-11:00pm
-                    </span>
-                    <span>
-                        Waze/Google Maps: BOSS K Steakhouse - Dahlia
-                    </span>
-                    <br />
-                    <a href="https://www.facebook.com/bossksteakhousedahlia" target="_blank">
-                        <button type="button" class="btn btn-secondary btn-sm contactUsButton">
-                            Boss K Steakhouse FB Page
-                        </button>
-                    </a>
-                </div>
-                    <div class="col-6 mt-5 px-0">
-                        <iframe
-                        width="100%"
-                        height="100%"
-                        title="map"
-                        class="absolute inset-0"
-                        style={{ filter: "opacity(0.7)" }}
-                        src="https://www.google.com/maps/embed/v1/place?q=Dahlia,+Fairview+QC+(Inside+UNIOIL+Dahlia)+1118+Quezon+City,+Philippines&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-                        />
-                    </div>
+            <div class="col-6 mt-5 px-0">
+                <iframe
+                width="100%"
+                height="100%"
+                title="map"
+                class="absolute inset-0"
+                style={{ filter: "opacity(0.7)" }}
+                src="https://www.google.com/maps/embed/v1/place?q=Dahlia,+Fairview+QC+(Inside+UNIOIL+Dahlia)+1118+Quezon+City,+Philippines&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                />
             </div>
-        </div>
-
-        {/* End */}
+    </div>
+</div>
+{/* End */}
     </>
     )
 }
