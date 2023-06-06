@@ -1,5 +1,6 @@
 {
   "name": "bossk-steakhouse",
+  "homepage": "https://bossksteakhouse.github.io/boss-k-steakhouse/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
