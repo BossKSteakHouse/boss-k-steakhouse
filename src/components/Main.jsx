@@ -126,7 +126,7 @@ export default function Main() {
                     </span>
                     <br />
                     <a href="https://www.facebook.com/bossksteakhousedahlia" target="_blank">
-                        <button type="button" class="btn btn-secondary btn-sm">
+                        <button type="button" class="btn btn-secondary btn-sm contactUsButton">
                             Boss K Steakhouse FB Page
                         </button>
                     </a>

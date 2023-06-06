@@ -158,6 +158,13 @@ nav {
 iframe {
   filter: grayscale(100%) brightness(120%);
 }
+
+@media (max-width: 320px) {
+  .contactUsButton {
+    width: 90%;
+    justify-content: center;
+  }
+}
 /* End */
 
 /* Footer styling */
